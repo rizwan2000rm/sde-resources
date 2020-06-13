@@ -16,8 +16,7 @@ a {
   font-family: "Roboto Condensed", sans-serif;
 }
 
-.row a,
-.interview a {
+.row a {
   display: block;
 }
 

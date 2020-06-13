@@ -1,0 +1,41 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+a {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.row a,
+.interview a {
+  display: block;
+}
+
+.hr-or {
+  overflow: visible; /* For IE */
+  padding: 0;
+  border: none;
+  border-top: medium double rgba(0, 0, 0, 0.1);
+  color: #333;
+  text-align: center;
+}
+
+.hr-or:after {
+  content: "or";
+  display: inline-block;
+  position: relative;
+  top: -0.7em;
+  font-size: 1.5em;
+  padding: 0 0.25em;
+  background: white;
+}
